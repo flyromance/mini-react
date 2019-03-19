@@ -1,5 +1,5 @@
-import React, { Component } from "../lib/react";
-import ReactDom, { render } from "../lib/reactDom";
+import React, { Component } from "./lib/react";
+import ReactDom, { render } from "./lib/reactDom";
 
 import Welcome from "./components/Welcome";
 
@@ -13,7 +13,7 @@ function App() {
       {names.map(name => {
         return <Welcome name={name} />;
       })}
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 }
